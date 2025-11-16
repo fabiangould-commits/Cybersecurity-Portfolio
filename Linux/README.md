@@ -1,7 +1,7 @@
 # Linux Labs
 
 This folder contains my Linux exercises.  
-I practiced:
+I practice:
 
 - Basic commands (`ls`, `cd`, `cat`)  
 - File and directory management  
