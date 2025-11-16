@@ -12,4 +12,5 @@
 **What I Learned:**  
 Ping shows if a device is reachable and how fast packets travel.
 
-**Screenshot:** ![Ping Screenshot](Networking-ping.png)
+**Screenshot:**
+![Ping Screenshot](Networking-ping.png)
