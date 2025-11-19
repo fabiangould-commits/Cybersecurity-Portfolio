@@ -1,16 +1,18 @@
-# Ping Basics Lab
+# Ping Basics
 
-**Goal:** Test if my computer can reach another device.
+**Screenshot:** Networking-ping.png
 
-**Tool Used:** Windows PowerShell
+**Objective:** Test network connectivity using the `ping` command.
 
-**Steps I Took:**  
-1. Opened PowerShell  
-2. Ran `ping 8.8.8.8`  
-3. Saw the response times
+**Steps:**
+1. Open PowerShell.
+2. Run:
+   ```powershell
+   ping 8.8.8.8
+Observe the response times and packet loss.
 
-**What I Learned:**  
-Ping shows if a device is reachable and how fast packets travel.
+Results:
+Packets successfully reached the target host, confirming connectivity.
 
-**Screenshot:**
-![Ping Screenshot](Networking-ping.png)
+Key Learning:
+ping is used to check reachability of a host and measure round-trip time.
