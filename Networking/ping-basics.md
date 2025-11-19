@@ -1,4 +1,3 @@
-# 1. ping-basics.md
 # Ping Basics
 
 ![Ping Basics](Networking-ping.png)
