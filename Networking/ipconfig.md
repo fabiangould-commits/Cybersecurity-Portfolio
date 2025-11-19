@@ -1,4 +1,3 @@
-# 2. ipconfig.md
 # IP Configuration
 
 ![IP Configuration](Networking-ipconfig.png)
