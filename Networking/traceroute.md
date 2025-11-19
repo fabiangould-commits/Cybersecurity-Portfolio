@@ -1,4 +1,3 @@
-# 3. traceroute.md
 # Traceroute Basics
 
 ![Traceroute Basics](Networking-traceroute.png)
