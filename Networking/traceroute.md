@@ -1,15 +1,18 @@
-# Traceroute Lab
+# 3. traceroute.md
+# Traceroute Basics
 
-**Goal:** See the path packets take to reach a website.
+![Traceroute Basics](Networking-traceroute.png)
 
-**Tool Used:** Windows PowerShell
+**Objective:** Trace the route packets take to a host.
 
-**Steps I Took:**  
-1. Opened PowerShell  
-2. Ran `tracert google.com`  
-3. Observed each hop along the path
+**Steps:**
+1. Open PowerShell.
+2. Run:
+   tracert google.com
+3. Observe each hop along the path.
 
-**What I Learned:**  
-Traceroute shows all the routers (hops) between your computer and the destination, helping troubleshoot network paths.
+**Results:**  
+Shows the path and time taken for packets to reach the host.
 
-**Screenshot:** ![Traceroute Screenshot](Networking-traceroute.png)
+**Key Learning:**  
+`tracert` identifies network hops and helps troubleshoot delays or connectivity issues.
