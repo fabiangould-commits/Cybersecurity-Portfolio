@@ -1,17 +1,18 @@
-# IP Configuration Lab
+# 2. ipconfig.md
+# IP Configuration
 
-**Goal:** Learn my computer’s IP, subnet mask, and default gateway.
+![IP Configuration](Networking-ipconfig.png)
 
-**Tool Used:** Windows PowerShell
+**Objective:** View IP address, subnet mask, and default gateway.
 
-**Steps I Took:**  
-1. Opened PowerShell  
-2. Ran `ipconfig`  
-3. Found my IPv4 address  
-4. Located the subnet mask and default gateway
+**Steps:**
+1. Open PowerShell.
+2. Run:
+   ipconfig
+3. Review your IPv4 Address, Subnet Mask, and Default Gateway.
 
-**What I Learned:**  
-`ipconfig` displays key network information that helps troubleshoot connectivity issues and understand local network settings.
+**Results:**  
+Displays local network configuration for all adapters.
 
-**Screenshot:**  
-![IP Config Screenshot](Networking-ipconfig.png)
+**Key Learning:**  
+`ipconfig` helps troubleshoot network connectivity and verify adapter settings.
