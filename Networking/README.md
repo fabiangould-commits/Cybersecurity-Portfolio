@@ -77,14 +77,6 @@ Each lab includes a Markdown write-up and a screenshot showing the command outpu
 
 ---
 
-## Telnet Test
-- Write-up: telnet-test.md
-- Screenshot: Networking-telnet.png
-
-**Purpose:** Verify connectivity to specific ports using Telnet.
-
----
-
 ## IP Conflict Detection
 - Write-up: ip-conflict.md
 - Screenshot: Networking-ip-conflict.png
