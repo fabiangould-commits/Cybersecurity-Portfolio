@@ -11,7 +11,7 @@ These labs build foundational skills essential for IT support, networking, and c
 
 ### **1. ARP Table Lookup**
 - File: `arp-table.md`
-- Screenshot: `Networking-arp.png`
+- Screenshot: `Networking-arp-table.png`
 - Description: Displays the ARP cache to show IP–MAC address mappings on the local network.
 
 ---
@@ -25,7 +25,7 @@ These labs build foundational skills essential for IT support, networking, and c
 
 ### **3. IP Route Table**
 - File: `ip-route.md`
-- Screenshot: `Networking-route.png`
+- Screenshot: `Networking-ip-route.png`
 - Description: Shows the device’s routing table, including gateways and interface metrics.
 
 ---
@@ -53,14 +53,14 @@ These labs build foundational skills essential for IT support, networking, and c
 
 ### **7. NSLookup – MX Record Lookup**
 - File: `nslookup-mx.md`
-- Screenshot: `Networking-mx.png`
+- Screenshot: `Networking-nslookup-mx.png`
 - Description: Queries mail exchange records to see which servers handle email for a domain.
 
 ---
 
 ### **8. NSLookup – SOA Record Lookup**
 - File: `nslookup-soa.md`
-- Screenshot: `Networking-soa.png`
+- Screenshot: `Networking-nslookup-soa.png`
 - Description: Checks the Start of Authority (SOA) record for authoritative DNS server information.
 
 ---
@@ -68,7 +68,7 @@ These labs build foundational skills essential for IT support, networking, and c
 ### **9. PathPing**
 - File: `pathping.md`
 - Screenshot: `Networking-pathping.png`
-- Description: Combines ping and traceroute to check hop-by-hop latency and packet loss.
+- Description: Combines traceroute and ping to check hop-by-hop latency and packet loss.
 
 ---
 
@@ -88,14 +88,14 @@ These labs build foundational skills essential for IT support, networking, and c
 
 ### **12. Port Scan (Test-NetConnection)**
 - File: `port-scan.md`
-- Screenshot: `Networking-portscan.png`
+- Screenshot: `Networking-port-scan.png`
 - Description: Uses PowerShell to test if a specific remote port is open.
 
 ---
 
 ### **13. Reverse DNS Lookup**
 - File: `reverse-dns-lookup.md`
-- Screenshot: `Networking-reversedns.png`
+- Screenshot: `Networking-reverse-dns.png`
 - Description: Resolves an IP address back to a hostname using NSLookup.
 
 ---
@@ -112,8 +112,8 @@ These labs build foundational skills essential for IT support, networking, and c
 Before uploading, all screenshots were sanitized to remove:
 
 - Local IPv4 address  
-- Default gateway  
 - Subnet mask  
+- Default gateway  
 - DNS server addresses  
 - Hostname / computer name  
 - MAC addresses  
@@ -133,4 +133,3 @@ These networking exercises demonstrate:
 - Basic cybersecurity awareness  
 
 These skills are relevant for IT Support, SOC Analyst, Junior Cybersecurity roles, and Networking positions.
-
