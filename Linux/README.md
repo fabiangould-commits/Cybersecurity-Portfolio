@@ -1,116 +1,83 @@
-# Linux Labs (WSL)
+# Linux Labs
 
-This folder contains beginner Linux labs completed using WSL (Windows Subsystem for Linux).  
-Each lab includes a Markdown write-up and a screenshot.
+This folder contains 14 beginner Linux labs completed using WSL under the generic user `linuxuser@LinuxLab`.  
 
----
-
-## Change Directory
-- Write-up: change-directory.md
-- Screenshot: Linux-cd.png
-
-**Purpose:** Navigate directories using `cd`.
+Each lab includes a Markdown write-up and a terminal screenshot.  
 
 ---
 
-## List Directories
-- Write-up: list-directories.md
-- Screenshot: Linux-ls.png
+### **List of Labs**
 
-**Purpose:** View files and directories using `ls` and flags like `-l` and `-a`.
+- **Change Directory**  
+  - Write-up: `change-directory.md`  
+  - Screenshot: `Linux-cd.png`  
+  - Practice navigating directories using `cd` and verifying with `pwd`.
 
----
+- **List Directories**  
+  - Write-up: `list-directories.md`  
+  - Screenshot: `Linux-ls.png`  
+  - List files and directories using `ls -l`.
 
-## View File
-- Write-up: view-file.md
-- Screenshot: Linux-view-file.png
+- **Create Directory**  
+  - Write-up: `create-folder.md`  
+  - Screenshot: `Linux-mkdir.png`  
+  - Create directories using `mkdir`.
 
-**Purpose:** Open and inspect file contents using `cat` and `less`.
+- **View File Contents**  
+  - Write-up: `view-file.md`  
+  - Screenshot: `Linux-cat.png`  
+  - View contents of files using `cat`.  
 
----
+- **Change File Permissions**  
+  - Write-up: `change-permissions.md`  
+  - Screenshot: `Linux-chmod.png`  
+  - Modify file permissions using `chmod`.
 
-## Change Permissions
-- Write-up: change-permissions.md
-- Screenshot: Linux-change-permissions.png
+- **Create and Edit File**  
+  - Write-up: `create-edit-file.md`  
+  - Screenshot: `Linux-nano.png`  
+  - Create and edit files using `nano` editor.
 
-**Purpose:** Modify file permissions using `chmod`.
+- **Copy File**  
+  - Write-up: `copy-file.md`  
+  - Screenshot: `Linux-cp.png`  
+  - Copy files using `cp`.
 
----
+- **Move/Rename File**  
+  - Write-up: `move-rename.md`  
+  - Screenshot: `Linux-mv.png`  
+  - Move or rename files using `mv`.
 
-## Create Files
-- Write-up: create-files.md
-- Screenshot: Linux-create-files.png
+- **Remove File**  
+  - Write-up: `remove-file.md`  
+  - Screenshot: `Linux-rm.png`  
+  - Delete files using `rm`.
 
-**Purpose:** Create files using `touch` and other basic commands.
+- **Remove Directory**  
+  - Write-up: `remove-directory.md`  
+  - Screenshot: `Linux-rmdir.png`  
+  - Delete empty directories using `rmdir`.
 
----
+- **Search Files**  
+  - Write-up: `find-files.md`  
+  - Screenshot: `Linux-find.png`  
+  - Search for files using `find`.
 
-## Remove Files
-- Write-up: remove-files.md
-- Screenshot: Linux-remove-files.png
+- **Disk Usage**  
+  - Write-up: `disk-usage.md`  
+  - Screenshot: `Linux-du.png`  
+  - Check disk and folder usage using `du` and `df`.
 
-**Purpose:** Delete files safely using `rm`.
+- **Monitor Processes**  
+  - Write-up: `processes.md`  
+  - Screenshot: `Linux-ps.png`  
+  - Monitor processes using `ps aux | head -n 8` and `top -n 1 | head -n 10`.
 
----
-
-## Copy Files
-- Write-up: copy-files.md
-- Screenshot: Linux-copy-files.png
-
-**Purpose:** Copy files using `cp`.
-
----
-
-## Move Files
-- Write-up: move-files.md
-- Screenshot: Linux-move-files.png
-
-**Purpose:** Move files between directories using `mv`.
-
----
-
-## Make Directory
-- Write-up: make-directory.md
-- Screenshot: Linux-mkdir.png
-
-**Purpose:** Create directories using `mkdir`.
-
----
-
-## Remove Directory
-- Write-up: remove-directory.md
-- Screenshot: Linux-rmdir.png
-
-**Purpose:** Remove empty directories using `rmdir`.
-
----
-
-## Display File Info
-- Write-up: file-info.md
-- Screenshot: Linux-file-info.png
-
-**Purpose:** View file details using `stat` and `ls -l`.
+- **View System Info**  
+  - Write-up: `system-info.md`  
+  - Screenshot: `Linux-uname.png`  
+  - View system information using `uname -a` and `hostname`.
 
 ---
 
-## Find Files
-- Write-up: find-files.md
-- Screenshot: Linux-find.png
 
-**Purpose:** Locate files using `find`.
-
----
-
-## File Content Search
-- Write-up: search-content.md
-- Screenshot: Linux-grep.png
-
-**Purpose:** Search text within files using `grep`.
-
----
-
-## Advanced Listing
-- Write-up: advanced-listing.md
-- Screenshot: Linux-ls-advanced.png
-
-**Purpose:** Use advanced `ls` flags to format and sort file listings.
